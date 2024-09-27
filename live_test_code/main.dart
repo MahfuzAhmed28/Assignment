@@ -15,7 +15,7 @@ class Car
 }
 void main()
 {
-  Car car1=Car("Toyota", "Corolla", 2015);
+  Car car1=Car('Toyota', 'Corolla', 2015);
   print('Brand: ${car1._brand}');
   print('Model: ${car1._model}');
   print('Year: ${car1._year}');
